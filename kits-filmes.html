@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kits-Filmes</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+     integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+ <header>
+
+          <nav>
+
+               <a href="./index.html" class="Icone-Boneco">
+
+                 <img src="./img/Icone da logo-Boneco.png" alt="Icone-Boneco">             
+
+               </a>
+
+               <ul class="pesquisa">
+
+                   <li class="hideMobile"><a href="./index.html">Início</a></li> 
+                                        
+                    <li class="hideMobile dropdown"> <a href="./Kits.html">Kits</a>
+
+                          <ul class="submenu">
+
+                               <li><a href="./kits-filmes.html">Filmes</a></li>
+                               <li><a href="./kits-series.html">Séries</a></li>
+                               <li><a href="./kits-anime.html">Anime</a></li>                              
+
+                         </ul>
+                   </li>
+                   
+                   <li class="hideMobile dropdown"><a href="./Individual.html">Individual</a>
+                     
+                          <ul class="submenu">
+
+                               <li> <a href="./individual-filmes.html">Filmes</a></li>
+                               <li> <a href="./individual-series.html">Séries</a></li>
+                               <li> <a href="./individual-anime.html">Anime</a></li>
+
+                          </ul>                
+               
+                    </li>
+
+                   <li class="hideMobile"><a href="./Dúvidas.html">Dúvidas</a></li>
+
+                   <li class="hideDesktop menu" onclick = showSidebar() ><i class="fa-solid fa-bars" style="color: #fff ;"></i></ul></li>
+                    
+               </ul>
+
+               <ul class="sidebar">
+
+                   <li onclick = hideSidebar() class="menu"><i class="fa-solid fa-xmark" style="color: #000000;"></i></li>
+
+                   <li><a href="./index.html">Início</a></li> 
+                                        
+                    <li class="mobile-dropdown">
+
+                         <div class="mobile-menu-title">
+
+                            <a href="./Kits.html">Kits</a>
+                            <i class="fa-solid fa-chevron-down"onclick="toggleKits()"></i>
+
+                         </div>
+
+                         <ul class="mobile-submenu kits-submenu">
+
+                               <li><a href="./kits-filmes.html">Filmes</a></li>
+                               <li><a href="./kits-series.html">Séries</a></li>
+                               <li><a href="./kits-anime.html">Anime</a></li>
+
+                         </ul>
+
+                    </li>
+                   
+                    <li class="mobile-individual">
+
+                         <div class="mobile-menu-title">
+
+                               <a href="./Individual.html">Individual</a>
+                               <i class="fa-solid fa-chevron-down"onclick="toggleIndividual()"></i>
+
+                         </div>
+
+                         <ul class="mobile-submenu individual-submenu">
+
+                               <li><a href="./individual-filmes.html">Filmes</a></li>
+                               <li><a href="./individual-series.html">Séries</a></li>
+                               <li><a href="./individual-anime.html">Anime</a></li>
+
+                         </ul>
+               
+                    </li>
+                   
+                   <li><a href="./Dúvidas.html">Dúvidas</a></li>
+
+               </ul>
+                 
+          </nav>
+
+     </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <script src="./js/script.js"></script>
+    
+</body>
+
+</html>
