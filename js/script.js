@@ -1,6 +1,6 @@
 function showSidebar()
 {
-     const sidebar = document.querySelector(".sidebar");
+     const sidebar = document.querySelector(".sidebar");                 //botão de abrir e fechar a sidebar 
      sidebar.style.display = "flex";
 }
 
@@ -16,7 +16,7 @@ function toggleKits()
 
    if(submenu.style.display === "flex")
     {
-      submenu.style.display = "none";
+      submenu.style.display = "none";                      //o botão do submenu abrir e fechar
     }
 
    else
