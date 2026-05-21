@@ -90,7 +90,7 @@ else if(produto == "Zenitsu"){
 
     imagem.src = "./img/Zenitsu.png";
 
-    nome.innerHTML = "Zoro - One Piece";
+    nome.innerHTML = "Zenitsu - Kimetsu no Yaiba";
 
     preco.innerHTML = "R$ 70,00";
 }
@@ -99,7 +99,7 @@ else if(produto == "Inosuke"){
 
     imagem.src = "./img/Inosuke.png";
 
-    nome.innerHTML = "Zoro - One Piece";
+    nome.innerHTML = "Inosuke - Kimetsu no Yaiba";
 
     preco.innerHTML = "R$ 70,00";
 }
@@ -108,7 +108,7 @@ else if(produto == "Nezuko"){
 
     imagem.src = "./img/Nezuko.png";
 
-    nome.innerHTML = "Zoro - One Piece";
+    nome.innerHTML = "Nezuko - Kimetsu no Yaiba";
 
     preco.innerHTML = "R$ 70,00";
 }
@@ -117,7 +117,7 @@ else if(produto == "Tanjiro"){
 
     imagem.src = "./img/Tanjiro.png";
 
-    nome.innerHTML = "Zoro - One Piece";
+    nome.innerHTML = "Tanjiro - Kimetsu no Yaiba";
 
     preco.innerHTML = "R$ 70,00";
 }
@@ -126,7 +126,7 @@ else if(produto == "Amora"){
 
     imagem.src = "./img/Amora - Moranguinho.png";
 
-    nome.innerHTML = "Zoro - One Piece";
+    nome.innerHTML = "Amora - Moranguinho";
 
     preco.innerHTML = "R$ 70,00";
 }
@@ -135,7 +135,7 @@ else if(produto == "Gotinha de limao"){
 
     imagem.src = "./img/Gotinha de limão - Moranguinho.png";
 
-    nome.innerHTML = "Zoro - One Piece";
+    nome.innerHTML = "Gotinha de Limão - Moranguinho";
 
     preco.innerHTML = "R$ 70,00";
 }
@@ -144,25 +144,25 @@ else if(produto == "Kimetsu no Yaiba"){
 
     imagem.src = "./img/Kimetsu no yaiba.png";
 
-    nome.innerHTML = "Zoro - One Piece";
+    nome.innerHTML = "Kimetsu no Yaiba - Kit";
 
-    preco.innerHTML = "R$ 70,00";
+    preco.innerHTML = "R$ 280,00";
 }
 
 else if(produto == "Arcane"){
 
     imagem.src = "./img/Arcane-Kit.png";
 
-    nome.innerHTML = "Zoro - One Piece";
+    nome.innerHTML = "Arcane - Kit";
 
-    preco.innerHTML = "R$ 70,00";
+    preco.innerHTML = "R$ 140,00";
 }
 
 else if(produto == "Camaleao"){
 
     imagem.src = "./img/Rapunzel-Sozinho.png";
 
-    nome.innerHTML = "Zoro - One Piece";
+    nome.innerHTML = "Flynn Rider - Rapunzel";
 
     preco.innerHTML = "R$ 70,00";
 }
@@ -171,16 +171,16 @@ else if(produto == "One Piece"){
 
     imagem.src = "./img/Kit-One Piece.png";
 
-    nome.innerHTML = "Zoro - One Piece";
+    nome.innerHTML = "One Piece - Kit";
 
-    preco.innerHTML = "R$ 70,00";
+    preco.innerHTML = "R$ 210,00";
 }
 
 else if(produto == "Ekko"){
 
     imagem.src = "./img/Ekko-Arcane.png";
 
-    nome.innerHTML = "Zoro - One Piece";
+    nome.innerHTML = "Ekko - Arcane";
 
     preco.innerHTML = "R$ 70,00";
 }
@@ -189,7 +189,7 @@ else if(produto == "Jinx"){
 
     imagem.src = "./img/Jinx-Arcane.png";
 
-    nome.innerHTML = "Zoro - One Piece";
+    nome.innerHTML = "Jinx - Arcane";
 
     preco.innerHTML = "R$ 70,00";
 }
@@ -198,25 +198,25 @@ else if(produto == "KRapunzel"){
 
     imagem.src = "./img/Kit - Rapunzel.png";
 
-    nome.innerHTML = "Zoro - One Piece";
+    nome.innerHTML = "Rapunzel - Kit";
 
-    preco.innerHTML = "R$ 70,00";
+    preco.innerHTML = "R$ 140,00";
 }
 
 else if(produto == "MoranguinhoK"){
 
     imagem.src = "./img/Kit - Moranguinho.png";
 
-    nome.innerHTML = "Zoro - One Piece";
+    nome.innerHTML = "Moranguinho";
 
-    preco.innerHTML = "R$ 70,00";
+    preco.innerHTML = "R$ 210,00";
 }
 
 else if(produto == "Ellie"){
 
     imagem.src = "./img/Ellie - The Last of Us.png";
 
-    nome.innerHTML = "Zoro - One Piece";
+    nome.innerHTML = "Ellie - The Last of Us";
 
     preco.innerHTML = "R$ 70,00";
 }
@@ -225,7 +225,7 @@ else if(produto == "Nami"){
 
     imagem.src = "./img/Nami - One Piece.png";
 
-    nome.innerHTML = "Zoro - One Piece";
+    nome.innerHTML = "Nami - One Piece";
 
     preco.innerHTML = "R$ 70,00";
 }
@@ -234,25 +234,25 @@ else if(produto == "My Hero Academy"){
 
     imagem.src = "./img/My Hero Academy.png";
 
-    nome.innerHTML = "Zoro - One Piece";
+    nome.innerHTML = "My Hero Academy - Kit";
 
-    preco.innerHTML = "R$ 70,00";
+    preco.innerHTML = "R$ 210,00";
 }
 
 else if(produto == "The")
 {
     imagem.src = "./img/The Apothecary Diaries.png";
 
-    nome.innerHTML = "Zoro - One Piece";
+    nome.innerHTML = "The Apothecary Diaries - Kit";
 
-    preco.innerHTML = "R$ 70,00";
+    preco.innerHTML = "R$ 140,00";
 }
 
 else if(produto == "Todoroki"){
 
     imagem.src = "./img/Todoroki.png";
 
-    nome.innerHTML = "Zoro - One Piece";
+    nome.innerHTML = "Todoroki - My Hero Academy";
 
     preco.innerHTML = "R$ 70,00";
 }
@@ -261,7 +261,7 @@ else if(produto == "Midoriya"){
 
     imagem.src = "./img/Midoriya.png";
 
-    nome.innerHTML = "Zoro - One Piece";
+    nome.innerHTML = "Midoriya - My Hero Academy";
 
     preco.innerHTML = "R$ 70,00";
 }
@@ -270,7 +270,7 @@ else if(produto == "Bakugo"){
 
     imagem.src = "./img/Bakugo.png";
 
-    nome.innerHTML = "Zoro - One Piece";
+    nome.innerHTML = "Bakugo - My Hero Academy";
 
     preco.innerHTML = "R$ 70,00";
 }
