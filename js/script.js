@@ -230,6 +230,51 @@ else if(produto == "Nami"){
     preco.innerHTML = "R$ 70,00";
 }
 
+else if(produto == "My Hero Academy"){
+
+    imagem.src = "./img/My Hero Academy.png";
+
+    nome.innerHTML = "Zoro - One Piece";
+
+    preco.innerHTML = "R$ 70,00";
+}
+
+else if(produto == "The")
+{
+    imagem.src = "./img/The Apothecary Diaries.png";
+
+    nome.innerHTML = "Zoro - One Piece";
+
+    preco.innerHTML = "R$ 70,00";
+}
+
+else if(produto == "Todoroki"){
+
+    imagem.src = "./img/Todoroki.png";
+
+    nome.innerHTML = "Zoro - One Piece";
+
+    preco.innerHTML = "R$ 70,00";
+}
+
+else if(produto == "Midoriya"){
+
+    imagem.src = "./img/Midoriya.png";
+
+    nome.innerHTML = "Zoro - One Piece";
+
+    preco.innerHTML = "R$ 70,00";
+}
+
+else if(produto == "Bakugo"){
+
+    imagem.src = "./img/Bakugo.png";
+
+    nome.innerHTML = "Zoro - One Piece";
+
+    preco.innerHTML = "R$ 70,00";
+}
+
 
 
 
